@@ -1,0 +1,38 @@
+Xshell 6 (Build 0115)
+Copyright (c) 2002 NetSarang Computer, Inc. All rights reserved.
+
+Type `help' to learn how to use Xshell prompt.
+[C:\~]$ 
+
+Connecting to 192.168.149.28:22...
+Connection established.
+To escape to local shell, press 'Ctrl+Alt+]'.
+
+Welcome to Ubuntu 14.04.5 LTS (GNU/Linux 4.2.0-27-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+
+New release '16.04.7 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Last login: Tue Feb 14 17:44:10 2023 from 192.168.149.197
+server321@server321:~$ sudo su
+[sudo] password for server321: 
+root@server321:/home/server321# cd /home/disk3/wangqiangping/Makefile/
+root@server321:/home/disk3/wangqiangping/Makefile# touch add.h
+root@server321:/home/disk3/wangqiangping/Makefile# gcc -c main.c -o main.o
+root@server321:/home/disk3/wangqiangping/Makefile# gcc -c add.c -o add.0
+root@server321:/home/disk3/wangqiangping/Makefile# gcc main.o add.o -o main
+gcc: error: add.o: No such file or directory
+root@server321:/home/disk3/wangqiangping/Makefile# gcc main.o add.o -o main
+gcc: error: add.o: No such file or directory
+root@server321:/home/disk3/wangqiangping/Makefile# gcc -c add.c -o add.o
+root@server321:/home/disk3/wangqiangping/Makefile# gcc main.o add.o -o main
+root@server321:/home/disk3/wangqiangping/Makefile# ./main
+
+^H12
+x=0
+root@server321:/home/disk3/wangqiangping/Makefile# ./main
+12
+x=36
+root@server321:/home/disk3/wangqiangping/Makefile# 
