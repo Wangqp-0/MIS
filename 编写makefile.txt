@@ -1,0 +1,14 @@
+root@server321:/home/disk3/wangqiangping/Makefile# make
+gcc -Wall -g -c main.c -o main.o	
+gcc -Wall -g -c add.c -o add.o
+gcc -Wall -g main.o add.o -o main
+root@server321:/home/disk3/wangqiangping/Makefile# ls
+add.c  add.h  add.o  main  main.c  main.o  makefile
+root@server321:/home/disk3/wangqiangping/Makefile# ./main
+8
+x=24
+root@server321:/home/disk3/wangqiangping/Makefile# make clean
+rm -f *.o main		 
+root@server321:/home/disk3/wangqiangping/Makefile# ls
+add.c  add.h  main.c  makefile
+root@server321:/home/disk3/wangqiangping/Makefile# 
