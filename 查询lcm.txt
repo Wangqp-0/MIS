@@ -1,0 +1,19 @@
+root@server321:/home/disk3/wangqiangping# ./show_lcm_infor.sh
+kernel-4.19
+"ICNL9911C_HLT_MIPI4_HDP ILI9881H_HY_MIPI4_HDP ILI9882N_HLT_MIPI4_HDP"
+LCM_NAME is: ICNL9911C_HLT_MIPI4_HDP
+IC is :ICNL9911C
+Module :HLT
+lane is:MIPI4
+resolution:HDP
+LCM_NAME is: ILI9881H_HY_MIPI4_HDP
+IC is :ILI9881H
+Module :HY
+lane is:MIPI4
+resolution:HDP
+LCM_NAME is: ILI9882N_HLT_MIPI4_HDP
+IC is :ILI9882N
+Module :HLT
+lane is:MIPI4
+resolution:HDP
+root@server321:/home/disk3/wangqiangping# 
