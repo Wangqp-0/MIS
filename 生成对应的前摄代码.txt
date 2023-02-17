@@ -1,0 +1,11 @@
+root@server321:/home/disk3/wangqiangping# ./subcam_code_gen.sh 
+imx338s_eeprom.c  imx338s_eeprom.h  imx338smipi_Sensor.c  imx338smipi_Sensor.h	Makefile
+mv: ‘./camera_indexmgr_api.cpp’ and ‘./camera_indexmgr_api.cpp’ are the same file
+Android.mk				camera_isp_lsc_imx338smipiraw.h
+camera_AE_PLineTable_imx338smipiraw.h	camera_isp_pca_imx338smipiraw.h
+camera_feature_para_imx338smipiraw.h	camera_isp_regs_imx338smipiraw.h
+camera_flash_awb_para_imx338smipiraw.h	camera_tsf_data_imx338smipiraw.h
+camera_flicker_para_imx338smipiraw.cpp	camera_tsf_para_imx338smipiraw.h
+camera_indexmgr_api.cpp			camera_tuning_para_imx338smipiraw.cpp
+camera_info_imx338smipiraw.h
+root@server321:/home/disk3/wangqiangping# 
